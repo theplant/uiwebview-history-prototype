@@ -10,9 +10,8 @@
 		CF6D90E31A089EF700D7E929 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6D90E21A089EF700D7E929 /* AppDelegate.swift */; };
 		CF6D90E51A089EF700D7E929 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6D90E41A089EF700D7E929 /* ViewController.swift */; };
 		CF6D90E81A089EF700D7E929 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF6D90E61A089EF700D7E929 /* Main.storyboard */; };
-		CF6D90EA1A089EF700D7E929 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF6D90E91A089EF700D7E929 /* Images.xcassets */; };
-		CF6D90ED1A089EF700D7E929 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF6D90EB1A089EF700D7E929 /* LaunchScreen.xib */; };
 		CF6D90F91A089EF700D7E929 /* js_back_demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6D90F81A089EF700D7E929 /* js_back_demoTests.swift */; };
+		CF6D91041A08A25000D7E929 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = CF6D91021A08A25000D7E929 /* index.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,11 +30,10 @@
 		CF6D90E21A089EF700D7E929 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF6D90E41A089EF700D7E929 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CF6D90E71A089EF700D7E929 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CF6D90E91A089EF700D7E929 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		CF6D90EC1A089EF700D7E929 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		CF6D90F21A089EF700D7E929 /* js-back-demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "js-back-demoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF6D90F71A089EF700D7E929 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF6D90F81A089EF700D7E929 /* js_back_demoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = js_back_demoTests.swift; sourceTree = "<group>"; };
+		CF6D91021A08A25000D7E929 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,9 +78,8 @@
 				CF6D90E21A089EF700D7E929 /* AppDelegate.swift */,
 				CF6D90E41A089EF700D7E929 /* ViewController.swift */,
 				CF6D90E61A089EF700D7E929 /* Main.storyboard */,
-				CF6D90E91A089EF700D7E929 /* Images.xcassets */,
-				CF6D90EB1A089EF700D7E929 /* LaunchScreen.xib */,
 				CF6D90E01A089EF700D7E929 /* Supporting Files */,
+				CF6D91021A08A25000D7E929 /* index.html */,
 			);
 			path = "js-back-demo";
 			sourceTree = "<group>";
@@ -193,8 +190,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF6D90E81A089EF700D7E929 /* Main.storyboard in Resources */,
-				CF6D90ED1A089EF700D7E929 /* LaunchScreen.xib in Resources */,
-				CF6D90EA1A089EF700D7E929 /* Images.xcassets in Resources */,
+				CF6D91041A08A25000D7E929 /* index.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,14 +238,6 @@
 				CF6D90E71A089EF700D7E929 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		CF6D90EB1A089EF700D7E929 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CF6D90EC1A089EF700D7E929 /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

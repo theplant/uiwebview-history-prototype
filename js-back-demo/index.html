@@ -1,0 +1,38 @@
+<html>
+  <head>
+    <title>
+      Counter test
+    </title>
+  <body>
+    Count: <span id="count"></span>
+
+    <button id="button">+1</button>
+    <script>
+      function counter() {
+        return document.getElementById("count");
+      }
+
+      function setCount(count) {
+      counter().textContent = count;
+      console.log("setCount");
+      console.log(count);
+      }
+
+      document.getElementById("button").onclick = function () {
+        var count = parseInt(counter().textContent, 10) + 1;
+        setCount(count);
+        history.pushState({count: count}, "", count);
+      }
+
+      window.onpopstate = function (e) {
+        console.log("popstate");
+        if (!!e.state) {
+          setCount(e.state.count);
+          console.log(window.location + "");
+        } else {
+          setCount(0);
+        }
+      }
+    </script>
+  </body>
+</html>
